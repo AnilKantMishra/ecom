@@ -1,0 +1,212 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+	
+}
+.button {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	transition-duration: 0.4s;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+  }
+  
+  .button1 {
+	background-color: white!important; 
+	color: black!important; 
+	border: 2px solid #008CBA!important;
+  }
+  
+  .button1:hover {
+	background-color:  #4CAF50!important;
+	color: white!important;
+  }
+  .button2 {
+	background-color: white!important; 
+	color: black!important; 
+	border: 2px solid #82d871!important;
+  }
+  
+  .button2:hover {
+	background-color:  #33a1d4!important;
+	color: white!important;
+  }
+
+
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    
+    word-wrap: break-word;
+    background-color: rgb(145, 36, 36);
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .50rem;
+}
+body{
+	font-family: Verdana;
+	font-size: 0.8em;
+}
+.banner {
+	margin-top: -20px;
+	background-size: 100% 100%;
+	padding: 120px 0px;
+	background-position: center center;
+	width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+	
+	position: relative;
+	color: white;
+	background-image: linear-gradient(rgba(4, 168, 255, 0.3), rgba(197, 31, 95, 0.3)), url('computer.jpg')
+	}
+/*
+ * Common Styles
+ */
+
+#header, #main, #footer{
+	padding: 20px;
+}
+
+#main{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#logo{
+	font-size: 32px;
+	margin-bottom: 50px;
+}
+
+#menu, 
+#footer-links{
+	list-style: none;
+	overflow: hidden;
+}
+
+#menu li, 
+#footer-links li{
+	float: left;
+}
+
+#menu li a, 
+#footer-links li a{
+	padding: 10px 50px;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	color: #000000;	
+}
+
+#menu li a{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#menu li:first-child a, 
+#footer-links li:first-child a{
+	padding-left: 0px;
+}
+
+#footer-links{
+	width: 40%;
+	margin: 0 auto;
+}
+
+/*
+ * Home Page
+ */
+
+ #main p{
+	font-size: 15px;
+	word-spacing: 2px;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+/*
+ * Product Page
+ */
+
+ #products{
+ 	overflow: hidden;
+ }
+
+ #products .product{
+ 	float: left;
+ 	margin-bottom: 20px;
+ 	max-width: 280px;
+ 	padding: 20px;
+ 	text-align: center;
+ }
+
+ #products .product .title a{
+ 	text-decoration: none;
+ 	font-size: 16px;
+ 	font-weight: light;
+ 	color: #000000;
+ }
+
+
+ #products .product .add-to-cart, #contact-form .submit input[type="submit"] {
+	width:500px;
+	background: #3e9cbf; 
+	padding: 8px 14px 10px; 
+	border:1px solid #3e9cbf;
+	cursor:pointer; 
+	font-size:1.2em;
+	display: block;
+	max-width: 60%;
+	margin: 20px auto 0px;
+	text-decoration: none;
+	text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3); 
+	color: #fff;
+	-webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+	-moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+	box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+ #products .product .add-to-cart:hover,  
+ #products .product .add-to-cart:focus, 
+ #contact-form .submit input[type="submit"]:hover, 
+ #contact-form .submit input[type="submit"]:focus {
+	color:#dfe7ea;
+	-webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+	-moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+	box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+}
+
+#contact-form .submit input[type="submit"]{
+	width: 100px;
+	display: inline;
+	font-size: 1em;
+}
+
+
+#contact-form label, #contact-form .form-control{
+	display: block;
+	margin-bottom: 10px;
+	padding: 10px 0px;
+} 
+
+#contact-form .form-control{
+	border-radius: 5px;
+	border: 1px solid #cccccc; 
+}
+
